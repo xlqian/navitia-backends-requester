@@ -1,0 +1,1 @@
+(cd navitia-proto && protoc --python_out ../ type.proto response.proto request.proto)
