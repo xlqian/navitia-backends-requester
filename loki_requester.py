@@ -21,7 +21,8 @@ text_format.Parse(request_string, req)
 
 
 context = zmq.Context()
-zmq_socket = "tcp://toto:30070"
+zmq_socket = ""
+
 socket = context.socket(zmq.REQ)
 
 socket.connect(zmq_socket)
